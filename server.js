@@ -54,7 +54,7 @@ app.get('/bad',(req, res) =>{
   });
 })
 
-app,get('/work',(req,res) =>{
+app.get('/work',(req,res) =>{
   res.send({
     name :'Yashdeep srivastava',
     Gender :'Male'
