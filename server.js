@@ -58,7 +58,7 @@ app,get('/work',(req,res) =>{
   res.send({
     name :'Yashdeep srivastava',
     Gender :'Male'
-  })
+  });
 })
 app.listen(port,() =>{
   console.log(`server is up at port ${port}`);
